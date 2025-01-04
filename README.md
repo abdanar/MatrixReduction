@@ -6,13 +6,13 @@ $$
 H(s) = C(sI_{n} - A)^{-1}B.
 $$
 
-Notice that $H(s) = C v(s)$, where $v(s)$ is the solution of a parametrized linear coercive model
+Notice that $H(s) = Cv(s)$, where $v(s)$ is the solution of a parametrized linear coercive model
 
 $$
 a(v, w; s) = l(w),
 $$
 
-where $a(v, w; s) = w^*(sI_{n} - A)v$ and $l(w) = w^{*}B$. In other words, we replace the matrix computation of $(sI_{n} - A)^{-1}B$ with a parametrized model (1). However, if one wants to apply this to the Iterative Rational Krylov Algorithm (IRKA), then the following matrix computations must be done to construct the projection matrices $V$ and $W$:
+where $a(v, w; s) = w^{*}(sI_{n} - A)v$ and $l(w) = w^{*}B$. In other words, we replace the matrix computation of $(sI_{n} - A)^{-1}B$ with a parametrized model (1). However, if one wants to apply this to the Iterative Rational Krylov Algorithm (IRKA), then the following matrix computations must be done to construct the projection matrices $V$ and $W$:
 
 <p>
   $$ (-\mu_{i}I_{n} - A)^{-1}B\hat{b}_{i} \quad \text{and} \quad (-\mu_{i}I_{n} - A)^{-*}C^{T}\hat{c}_{i} \quad \text{for} \quad i = 1,\ldots,r $$
