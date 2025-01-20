@@ -12,6 +12,8 @@ The same issue arises when using the modified Gram-Schmidt process, which is gen
 
 Is there a modified algorithm to handle perturbed matrices?
 
+(My guess is no. If a matrix is ill-conditioned, the condition number is large, and it is clear, at least to me.)
+
 ### Note
 
 I am currently reading the so-called _Matrix Perturbation Theory_, which I am completely new to. If a solution exists, it is most likely discussed there, I think. If you are aware of an algorithm that can address this problem, feel free to contact me.
