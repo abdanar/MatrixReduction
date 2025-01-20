@@ -15,3 +15,5 @@ Is there a modified algorithm to handle perturbed matrices?
 ### Note
 
 I am currently reading the so-called _Matrix Perturbation Theory_, which I am completely new to. If a solution exists, it is most likely discussed there, I think. If you are aware of an algorithm that can address this problem, feel free to contact me.
+
+**keyword**: Perturbation bounds for the QR factorization
